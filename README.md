@@ -1,4 +1,5 @@
 Spring Boot CRUD Operations
+
 Overview
 This project implements CRUD operations using Spring Boot with JPA and Hibernate. The application includes API endpoints for managing categories and products, with a one-to-many relationship between them. The project also incorporates pagination and follows RESTful API principles.
 
