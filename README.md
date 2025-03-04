@@ -1,9 +1,9 @@
-Spring Boot CRUD Operations
+Spring Boot CRUD Operations:
 
-Overview
+Overview: 
 This project implements CRUD operations using Spring Boot with JPA and Hibernate. The application includes API endpoints for managing categories and products, with a one-to-many relationship between them. The project also incorporates pagination and follows RESTful API principles.
 
-Technologies Used
+Technologies Used: 
 *Spring Boot
 *Spring Data JPA
 *Hibernate
@@ -12,7 +12,7 @@ Technologies Used
 *Maven
 *Eclipse IDE with Spring Tool Suite (STS)
 
-API Endpoints
+API Endpoints: 
 Category CRUD Operations
 Method	Endpoint	Description
 GET	/api/categories?page={pageNumber}	Fetch all categories with pagination
@@ -29,16 +29,16 @@ GET	/api/products/{id}	Fetch product by ID (includes category details)
 PUT	/api/products/{id}	Update product by ID
 DELETE	/api/products/{id}	Delete product by ID
 
-How to Run the Project
+How to Run the Project: 
 Prerequisites
 Install Java (JDK 17 or later).
 Install MySQL and create a database.
 Install Maven.
 Install Eclipse IDE with Spring Tool Suite (STS) or any other IDE.
 
-Steps to Run
+Steps to Run: 
 
-Clone the repository:
+Clone the repository: 
 git clone https://github.com/suyash7318/CRUD-Operations.git  
 
 Configure the database in application.properties:
@@ -52,7 +52,7 @@ mvn spring-boot:run
 
 Access the API endpoints using Postman or any API client.
 
-Running the Machine Test
+Running the Machine Test: 
 Start the MySQL server and ensure the database is running.
 Run the Spring Boot application using mvn spring-boot:run or via the IDE.
 Test the API endpoints using Postman.
